@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS background color</title>
+</head>
+<body>
+	<h1>My First Web Page using JS</h1>
+<p id="col">Change a color:</p>
+<p>
+<button onclick="changeBackground('green')">Green</button>
+<button onclick="changeBackground('red')">Red</button>
+<button onclick="changeBackground('orange')">Orange</button>
+</p>
+<p>
+<input type="range" id="red" value="255" min="0" max="255" onchange="onSliderChanged()" style="background:red"> Red<br>
+<input type="range" id="green" value="255" min="0" max="255" onchange="onSliderChanged()" style="background:green"> Green<br>
+<input type="range" id="blue" value="255" min="0" max="255" onchange="onSliderChanged()" style="background:blue"> Blue
+</p>
+
+<script src="script.js"></script>
+</body>
+</html>
+
